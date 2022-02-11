@@ -5,11 +5,13 @@ body {
   color: #fff;
 }
 
-ul{
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
-a{
+
+a {
   text-decoration: none;
 }
 
@@ -100,10 +102,6 @@ li {
   justify-content: center;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .contact-list li {
   display: inline;
 }
@@ -125,11 +123,11 @@ ul {
   font-style: normal;
   line-height: 32px;
   text-align: center;
-  color: #A2A3AE;
+  color: #a2a3ae;
 }
 
 .work_link2 {
-  color: #A2A3AE;
+  color: #a2a3ae;
   font-size: 15px;
   padding-right: 12px;
   line-height: 32px;
@@ -139,7 +137,7 @@ ul {
   font-family: Roboto, Arial, sans-serif;
   font-weight: 500;
   font-size: 40px;
-  color: #A2A3AE;
+  color: #a2a3ae;
 }
 
 .preview {
@@ -147,7 +145,7 @@ ul {
   width: 327px;
   height: 236px;
   background-color: #fff;
-  margin-top: 48px;   
+  margin-top: 48px;
 }
 
 .description_title {
@@ -156,51 +154,22 @@ ul {
   font-style: normal;
   font-weight: 500;
   line-height: 44px;
-  text-align: left; 
+  text-align: left;
 }
 
 .description {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
   text-align: left;
-  color: #DCDCE8;  
-} 
+  color: #dcdce8;
+}
+
 .recipient ul {
   display: flex;
   justify-content: flex-start;
-}
-
-.recipient li h3 {
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: left;
-}
-
-.verticale {
-  border-right: 2px solid grey;
-  height: 40px;
-  position:absolute;  
-}
-
-.button {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-position: static;
-width: 89px;
-height: 48px;
-top: 421px;
-background: #7D73FC;
-order: 3;
-margin: 24px 0px;  
 }
 
 .button h3 {
@@ -209,7 +178,7 @@ margin: 24px 0px;
   height: 24px;
   left: 12px;
   top: 12px;
-  font-family: Roboto;
+  font-family: Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -218,7 +187,37 @@ margin: 24px 0px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #EDECFF;
-  flex: none;
-  margin: 0px 10px;   
+  color: #edecff;
+  margin: 0 10px;
+}
+
+.recipient li h3 {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: -10px;
+  text-align: left;
+}
+
+.verticale {
+  border-right: 1px solid grey;
+  height: 40px;
+  margin: -15px;
+  position: absolute;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: static;
+  width: 89px;
+  height: 48px;
+  top: 421px;
+  background: #7d73fc;
+  order: 3;
+  margin: 24px 0;
 }
