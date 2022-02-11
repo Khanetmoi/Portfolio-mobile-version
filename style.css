@@ -5,11 +5,12 @@ body {
   color: #fff;
 }
 
-ul{
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
-a{
+a {
   text-decoration: none;
 }
 
@@ -100,10 +101,6 @@ li {
   justify-content: center;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .contact-list li {
   display: inline;
 }
@@ -125,11 +122,11 @@ ul {
   font-style: normal;
   line-height: 32px;
   text-align: center;
-  color: #A2A3AE;
+  color: #a2a3ae;
 }
 
 .work_link2 {
-  color: #A2A3AE;
+  color: #a2a3ae;
   font-size: 15px;
   padding-right: 12px;
   line-height: 32px;
@@ -139,7 +136,7 @@ ul {
   font-family: Roboto, Arial, sans-serif;
   font-weight: 500;
   font-size: 40px;
-  color: #A2A3AE;
+  color: #a2a3ae;
 }
 
 .preview {
@@ -180,27 +177,29 @@ ul {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
+  margin: -10px;
   text-align: left;
 }
 
 .verticale {
-  border-right: 2px solid grey;
+  border-right: 1px solid grey;
   height: 40px;
+  margin: -15px;
   position:absolute;  
 }
 
 .button {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-position: static;
-width: 89px;
-height: 48px;
-top: 421px;
-background: #7D73FC;
-order: 3;
-margin: 24px 0px;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: static;
+  width: 89px;
+  height: 48px;
+  top: 421px;
+  background: #7d73fc;
+  order: 3;
+  margin: 24px 0;  
 }
 
 .button h3 {
@@ -219,6 +218,5 @@ margin: 24px 0px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #EDECFF;
-  flex: none;
-  margin: 0px 10px;   
+  margin: 0 10px;   
 }
