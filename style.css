@@ -1,0 +1,224 @@
+body {
+  background: #191765;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #fff;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin-top: 44px;
+}
+
+header h3 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
+
+.name h3 {
+  font-size: 18px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.intro h1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  color: #7d73fc;
+}
+
+.intro h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: center;
+}
+
+.intro p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.abilities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding: 9.5px 40px 9.5px 0;
+}
+
+.title {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #c8c8d4;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.contact-list li {
+  display: inline;
+}
+
+.icons {
+  color: #fff;
+  font-size: 20px;
+}
+
+.work_section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.work_link1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 32px;
+  text-align: center;
+  color: #A2A3AE;
+}
+
+.work_link2 {
+  color: #A2A3AE;
+  font-size: 15px;
+  padding-right: 12px;
+  line-height: 32px;
+}
+
+.recent_work {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #A2A3AE;
+}
+
+.preview {
+  position: static;
+  width: 327px;
+  height: 236px;
+  background-color: #fff;
+  margin-top: 48px;   
+}
+
+.description_title {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left; 
+}
+
+.description {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #DCDCE8;  
+} 
+.recipient ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.recipient li h3 {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.verticale {
+  border-right: 2px solid grey;
+  height: 40px;
+  position:absolute;  
+}
+
+.button {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+position: static;
+width: 89px;
+height: 48px;
+top: 421px;
+background: #7D73FC;
+order: 3;
+margin: 24px 0px;  
+}
+
+.button h3 {
+  position: static;
+  width: 65px;
+  height: 24px;
+  left: 12px;
+  top: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #EDECFF;
+  flex: none;
+  margin: 0px 10px;   
+}
